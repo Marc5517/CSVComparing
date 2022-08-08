@@ -100,7 +100,7 @@ namespace CSVComparing.Models
                 if (this._recordIdentifier != other._recordIdentifier)
                 {
                     Console.WriteLine();
-                    throw new NullReferenceException("Identifikationen er forkert! Den er ude af synch, så den skal rettes!");
+                    throw new NullReferenceException("Identifikationen er forkert! Den er ude af synch, så filerne skal rettes!");
                 }
 
                 if (this._afkastkravsGruppe != other._afkastkravsGruppe)
