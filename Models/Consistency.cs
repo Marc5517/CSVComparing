@@ -88,10 +88,11 @@ namespace CSVComparing.Models
         /// <summary>
         /// Metoden sammenligner indholdet af den anden liste med den første liste.
         /// Hvis de ikke er det samme, så melder den tilbage og viser forskellen mellem de to ved deres ID.
+        /// Hvis der ikke er en forskel, så returnere den en null.
         /// Dog, hvis der er noget galt med de to ID'er, så melder den tilbage og stopper.
         /// </summary>
         /// <param name="other"></param>
-        /// <returns>En string besked med enten forskellen mellem de to output, eller at idenfikation er forkert.</returns>
+        /// <returns>En string besked med enten forskellen mellem de to output, en null, eller en besked om at idenfikationen er forkert.</returns>
         public string CompareWithOther(Consistency other)
         {
             try
