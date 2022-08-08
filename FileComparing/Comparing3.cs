@@ -51,7 +51,7 @@ namespace CSVComparing.FileComparing
                 //Console.WriteLine(differencelog);
                 var differenceLog = list2[i].CompareWithOther(list[i]);
                 Console.WriteLine(differenceLog);
-                if (differenceLog == "Identifikationen er forkert! Den er ude af synch, så den skal rettes!")
+                if (differenceLog == "Identifikationen er forkert! Den er ude af synch, så filerne skal rettes!")
                 {
                     break;
                 }
